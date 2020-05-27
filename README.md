@@ -11,7 +11,7 @@ Extend CLI is based on CodeIgniter4. It will help you generate controllers and m
 ### Composer Install
 
 ```
-composer require enmanuel9713/cli-create
+Add  "enmanuel9713/cli-create" : "^1.0.0" in you required-dev section in you composer project file
 ```
 ### Use Library
 
