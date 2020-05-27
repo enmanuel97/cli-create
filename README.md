@@ -11,7 +11,7 @@ Extend CLI is based on CodeIgniter4. It will help you generate controllers and m
 ### Composer Install
 
 ```
-composer require monken/cli-create
+composer require enmanuel9713/cli-create
 ```
 ### Use Library
 
