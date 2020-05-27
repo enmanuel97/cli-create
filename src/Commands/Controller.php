@@ -55,7 +55,7 @@ class Controller extends BaseCommand
 	 *
 	 * @var string
 	 */
-	protected $group = 'CodeIgniter';
+	protected $group = 'Custom CLI';
 
 	/**
 	 * The Command's name
@@ -69,7 +69,7 @@ class Controller extends BaseCommand
 	 *
 	 * @var string
 	 */
-	protected $description = 'Creates a new controller class.';
+	protected $description = 'Create a new controller class.';
 
 	/**
 	 * the Command's usage

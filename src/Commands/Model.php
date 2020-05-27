@@ -42,7 +42,7 @@ use CodeIgniter\CLI\BaseCommand;
 use CodeIgniter\CLI\CLI;
 
 /**
- * Creates a controller class.
+ * Creates a Model class.
  *
  * @package CodeIgniter\Commands
  */
@@ -55,7 +55,7 @@ class Model extends BaseCommand
 	 *
 	 * @var string
 	 */
-	protected $group = 'CodeIgniter';
+	protected $group = 'Custom CLI';
 
 	/**
 	 * The Command's name
@@ -69,7 +69,7 @@ class Model extends BaseCommand
 	 *
 	 * @var string
 	 */
-	protected $description = 'Creates a new model class.';
+	protected $description = 'Create a new model class.';
 
 	/**
 	 * the Command's usage

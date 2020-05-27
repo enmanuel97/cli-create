@@ -55,7 +55,7 @@ class Module extends BaseCommand
 	 *
 	 * @var string
 	 */
-	protected $group = 'CodeIgniter';
+	protected $group = 'Custom CLI';
 
 	/**
 	 * The Command's name
@@ -109,15 +109,15 @@ class Module extends BaseCommand
         }
 
 		//First we have to create a controller class
-		$this->createController($name);
+        $this->createController($name);
+        
+        //Then we create a model class
 		$this->createModel($name);
 	}
 
 	private function createController($name)
     {
         helper('inflector');
-
-        // First to first: Create a controller with the name provided
 
         $ns = 'App';
 
@@ -161,8 +161,6 @@ EOD;
     private function createModel($name)
     {
         helper('inflector');
-
-        // First to first: Create a controller with the name provided
 
         $ns = 'App';
 
