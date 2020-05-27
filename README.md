@@ -15,7 +15,7 @@ composer require enmanuel9713/cli-create
 ```
 ### Use Library
 
-Open Terminal in Mac/Linux or go to Run > “cmd” in Windows and navigate to CodeIgniter4 project’s root:
+To start using this cli commands you have to put the commands folder into your app project, then open your terminal in Mac/Linux or go to Run > “cmd” in Windows and navigate to CodeIgniter4 project’s root:
 
 ```
 php spark list
@@ -82,7 +82,7 @@ Create a new model file.
     ```
 * Arguments:
     1. model_name : The model name
-    
+
 
 Now, in "app/Models" You can see the new Model File like this :
 
