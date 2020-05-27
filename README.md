@@ -6,15 +6,9 @@ Extend CLI is based on CodeIgniter4. It will help you generate controllers and m
 
 ### Prerequisites
 1. CodeIgniter Framework 4.*
-2. Composer
 
-### Composer Install
 
-```
-Add  "enmanuel9713/cli-create" : "^1.0.0" in you required-dev section in you composer project file
-```
 ### Use Library
-
 To start using these cli commands you have to put the commands folder into your app project, then open your terminal in Mac/Linux or go to Run > “cmd” in Windows and navigate to CodeIgniter4 project’s root:
 
 ```
