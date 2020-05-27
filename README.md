@@ -15,7 +15,7 @@ composer require enmanuel9713/cli-create
 ```
 ### Use Library
 
-To start using this cli commands you have to put the commands folder into your app project, then open your terminal in Mac/Linux or go to Run > “cmd” in Windows and navigate to CodeIgniter4 project’s root:
+To start using these cli commands you have to put the commands folder into your app project, then open your terminal in Mac/Linux or go to Run > “cmd” in Windows and navigate to CodeIgniter4 project’s root:
 
 ```
 php spark list
